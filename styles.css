@@ -1,1 +1,45 @@
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
 
+body {
+  margin: 0;
+  background-color: #1b244a;
+  color: #fff;
+  position: relative;
+  width: 575px;
+  height: 385px;
+}
+
+.container {
+  display: flex;
+  justify-content: space-around;
+}
+
+/* typography */
+h3 {
+  position: absolute;
+  font-weight: 700;
+  font-size: 40px;
+  width: 149px;
+  height: 36px;
+  top: 68px
+  text-align: center;
+  color: #eeeeee;
+}
+
+
+
+/* layout */
+.score-display {
+  background-color: #080001;
+  position: absolute;
+  width: 155px;
+  height: 120px;
+  left: 82px;
+  top: 125px;
+  border-radius: 5px;
+}
